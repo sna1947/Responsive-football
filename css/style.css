@@ -1,0 +1,12 @@
+.players_one{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.img_player_01{
+    width: 250px;
+    height: 250px;
+}
+.player_01{
+border: 2px solid red;
+}
