@@ -3,6 +3,56 @@ body{
 width: 1410px;
 background-color: rgb(192, 141, 141);
 }
+/* HEADER SECTION  START===================== */
+.sec_header{
+    width: 1410px;
+    height: 677px;
+    background-color: blue;
+}
+.div_header{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+}
+.info_header{
+    width: 485px;
+    height: 230px;
+    margin-top: 270px;
+    background-color: rgb(191, 243, 191);
+}
+
+.button_header{
+    width: 168px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E02C6D;
+    border-radius: 3px;
+}
+.p_header{
+    margin-top: 15px;
+    margin-left: -30px;
+    text-align: center;
+}
+.icon_header{
+    margin-top: 20px;
+    padding-left: 9px;
+}
+/*  >>>>>>>  header image start */
+.img_header_head{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+    background-color: rgb(220, 240, 134);
+}
+.img_header_image{
+    width: 100%;
+    
+}
+
+/* HEADER SECTION END ========================== */
 .players_one{
     width: 1050px;
     margin: 27px 180px 0 180px;
