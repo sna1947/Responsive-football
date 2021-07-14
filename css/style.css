@@ -1,12 +1,38 @@
+/* PLAYERS ONE information start================ */
+body{
+width: 1410px;
+background-color: rgb(192, 141, 141);
+}
 .players_one{
+    width: 1050px;
+    margin: 27px 180px 0 180px;
+    /* width: 100%; */
     display: flex;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+
 }
-.img_player_01{
-    width: 250px;
-    height: 250px;
+
+.img_player{
+    width: 100%;
+   
 }
-.player_01{
-border: 2px solid red;
+.plr{
+    width: 100%;
+    border: 2px solid red;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
 }
+.div_img {
+    margin: 15px;
+}
+.player_info{
+    padding: 5px;
+}
+h2,p{
+    margin-top: -5px;
+}
+/* PLAYERS ONE information end================ */
+/* PLAYERS two information start================ */
