@@ -4,7 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 width: 1410px;
-background-color: rgb(192, 141, 141);
+/* background-color: rgb(192, 141, 141); */
 }
 /* HEADER SECTION  START===================== */
 .sec_header{
@@ -86,7 +86,7 @@ background-color: rgb(192, 141, 141);
 }
 .plr{
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: #FFFFFF;
     align-items: center;
     justify-content: center;
@@ -154,4 +154,44 @@ h2,p{
     height: 427px;
     margin-top: 165px;
     border-radius: 5px;
+}
+/* FOOTER SECTION ===========*/
+.sec_footer{
+    /* border: 2px solid red; */
+    position: relative;
+    /* display:inline-block */
+}
+    
+
+.footer_main{
+    width: 483.87px;
+    height: 213px;
+    margin-top: 158px 0 0 475px;
+    /* background-color: chartreuse; */
+    position: absolute;
+    top: 158px;
+    left: 475px;
+    bottom: 63px;
+}
+.img_football_img{
+    width: 483.87px;
+    height: 110px;
+}
+.img_footer_img{
+    width: 100%;
+}
+.ftr_icon{
+    width: 32px;
+    height: 32px;
+    /* padding: 5px; */
+    margin-top: 20px;
+}
+.footer_social_icon{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    /* background-color: rgb(167, 107, 107); */
+}
+.footer_copyright_sec{
+    text-align: center;
 }
