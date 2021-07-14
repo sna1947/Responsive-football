@@ -28,7 +28,7 @@ background-color: rgb(192, 141, 141);
     color: #FFFFFF;
     font-weight: 700px; 
 }
-.button_header{
+.button_header {
     width: 168px;
     height: 44px;
     display: flex;
@@ -37,7 +37,13 @@ background-color: rgb(192, 141, 141);
     background-color: #E02C6D;
     border-radius: 3px;
 }
-.p_header{
+.icon_header_arrow {
+    margin-top: 20px;
+    padding-left: 9px;
+    color: #FFFFFF;
+    font-weight: 500px;
+}
+.p_header {
     margin-top: 15px;
     margin-left: -30px;
     text-align: center;
@@ -45,12 +51,7 @@ background-color: rgb(192, 141, 141);
     font-weight: 500px;
 }
 
-.icon_header_arrow{
-    margin-top: 20px;
-    padding-left: 9px;
-    color: #FFFFFF;
-    font-weight: 500px;
-}
+
 /*  >>>>>>>  header image start */
 .img_header_head{
     width: 556.01px;
@@ -100,4 +101,57 @@ h2,p{
     margin-top: -5px;
 }
 /* PLAYERS ONE information end================ */
-/* PLAYERS two information start================ */
+/* ALL HIGH LIGHT SECTION===================== */
+.sec_highlight{
+    width: 1050px;
+    height: 474px;
+    margin-left: 180px;
+    margin-bottom: 158px;
+    /* background-color: rgb(127, 138, 66); */
+}
+.div_highlight_sec{
+    display: flex;
+}
+.div_text_and_botton_sec{
+    margin-top: 224px;
+}
+.text_highlight_text_sec{
+    width: 469px;
+    height: 309px;
+    /* background-color: rgb(209, 188, 188); */
+    padding: 8px;
+}
+.button_highlight_sec{
+    width: 172px;
+    height: 44px;
+    display: flex;
+    background-color:#E02C6D;
+    border-radius: 5px;
+}
+
+.icon_highlight_arrow{
+    padding-left:5px ;
+}
+.p_highlight_text{
+    
+}
+.p_button_highlight_text{
+    text-align: center;
+    margin-top: 10px;
+    padding-left:20px ;
+    font-weight: 500px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.icon_highlight_arrow{
+    margin-top: 12px;
+    padding-left: 10px;
+    color: #ffffff;
+}
+/* IMAGE SECTION HIGHLIGHT =============*/
+.img_highlight_img{
+    width: 567px;
+    height: 427px;
+    margin-top: 165px;
+    border-radius: 5px;
+}
