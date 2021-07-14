@@ -1,5 +1,8 @@
+/* FONTS ================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 /* PLAYERS ONE information start================ */
 body{
+    font-family: 'Poppins', sans-serif;
 width: 1410px;
 background-color: rgb(192, 141, 141);
 }
@@ -13,15 +16,18 @@ background-color: rgb(192, 141, 141);
     display: flex;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 100px;
+    grid-gap: 90px;
 }
 .info_header{
     width: 485px;
     height: 230px;
-    margin-top: 270px;
-    background-color: rgb(191, 243, 191);
+    margin: 207px 0 0 156px;
+    /* background-color: rgb(191, 243, 191); */
 }
-
+.h1_header_text{
+    color: #FFFFFF;
+    font-weight: 700px; 
+}
 .button_header{
     width: 168px;
     height: 44px;
@@ -35,24 +41,33 @@ background-color: rgb(192, 141, 141);
     margin-top: 15px;
     margin-left: -30px;
     text-align: center;
+    color: #FFFFFF;
+    font-weight: 500px;
 }
-.icon_header{
+
+.icon_header_arrow{
     margin-top: 20px;
     padding-left: 9px;
+    color: #FFFFFF;
+    font-weight: 500px;
 }
 /*  >>>>>>>  header image start */
 .img_header_head{
     width: 556.01px;
     height: 438px;
-    margin-top: 153px;
-    background-color: rgb(220, 240, 134);
+    margin: 153px 0 0 30px;
+    /* background-color: rgb(220, 240, 134); */
 }
 .img_header_image{
     width: 100%;
+    margin-left: -60px;
     
 }
 
 /* HEADER SECTION END ========================== */
+.sec_naymar{
+    margin-top: 70px;
+}
 .players_one{
     width: 1050px;
     margin: 27px 180px 0 180px;
